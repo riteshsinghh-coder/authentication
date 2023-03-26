@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({
     extended:true
 }));
 
-mongoose.connect("mongodb://localhost:27017/userDB", {useNewUrlParser:true});
+mongoose.connect("mongodb+srv://Ritesh:Ritesh143@cluster0.yfty6qr.mongodb.net/userDB", {useNewUrlParser:true});
 // for encryption (new mongoose.Schema{
 
 // })
